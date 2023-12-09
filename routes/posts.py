@@ -1,8 +1,7 @@
 from fastapi import APIRouter , HTTPException
 from models.models import Post
-from dbjson import (
-    get_all,
-)
+from dbjson import DBJson
+import asyncio
 """
     get_all_post
     get_post_by_id
@@ -18,15 +17,17 @@ def index():
     return {"message": "Hello, world to my API!"}
 
 @posts.get("/posts")
-def get_posts():
-    if len(posts) == 0:
-        raise HTTPException(status_code=404, detail='No posts found')
-    return posts
+async def get_posts():
+        posts = await DBJson().get_all()
+        if not posts:
+            raise HTTPException(status_code=404, detail='No posts found')
+        
+        return posts
+
 
 
 @posts.post("/posts")
 def create_post(post: Post):
-    post.id = str(uuid())
     posts.append(post.dict())
     return posts[-1]
 

@@ -1,21 +1,22 @@
 import os 
-import json
+import json , asyncio
 
-class DBJson(path = 'db.json'):
-    def __init__(self, path):
+class DBJson:
+
+    def __init__(self, path = './posts.json'):
         self.path = path
         self.data = {}
-        self.load()
     
-    def _load(self):
+    async def _load(self):
         if os.path.exists(self.path):
-            with open(self.path, 'r') as f:
-                self.data = json.load(f)
-        else:
-            self.data = {}
-        
-    def get_all(self):
-        return self.data.dict()
+            try:
+                with open(self.path, 'r') as f:
+                    self.data = await asyncio.to_thread(json.load, f)
+            except FileNotFoundError:
+                raise FileNotFoundError('File not found')
+
+    async def get_all(self):
+        return await self.data.dict()
 
 
     
