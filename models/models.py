@@ -15,7 +15,6 @@ class ValidateId(BaseModel):
             return uuid(str(v))
         except ValueError:
             raise ValueError('Not a valid UUID')
-        return v
 
 # Post Model
 class Post(BaseModel):

@@ -1,92 +1,92 @@
 [
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "123456789",
+    "title": "Example Title",
+    "author": "John Doe",
+    "content": "This is the content of the post.",
+    "create_at": "2022-01-01T12:00:00Z",
+    "published_At": "2022-01-02T08:00:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "987654321",
+    "title": "Another Title",
+    "author": "Jane Smith",
+    "content": "More content for the post.",
+    "create_at": "2022-02-01T09:30:00Z",
+    "published_At": "2022-02-02T15:45:00Z",
+    "published": "false"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "456789123",
+    "title": "Third Title",
+    "author": "Bob Johnson",
+    "content": "Content goes here.",
+    "create_at": "2022-03-01T18:15:00Z",
+    "published_At": "2022-03-02T11:20:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "321654987",
+    "title": "Fourth Title",
+    "author": "Alice Williams",
+    "content": "Post content.",
+    "create_at": "2022-04-01T07:45:00Z",
+    "published_At": "2022-04-02T16:30:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "789123456",
+    "title": "Fifth Title",
+    "author": "Eve Davis",
+    "content": "Content for the fifth post.",
+    "create_at": "2022-05-01T14:20:00Z",
+    "published_At": "2022-05-02T10:10:00Z",
+    "published": "false"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "654987321",
+    "title": "Sixth Title",
+    "author": "Mike Brown",
+    "content": "Post content goes here.",
+    "create_at": "2022-06-01T11:30:00Z",
+    "published_At": "2022-06-02T09:05:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "234567891",
+    "title": "Seventh Title",
+    "author": "Sarah Wilson",
+    "content": "This is the seventh post.",
+    "create_at": "2022-07-01T16:50:00Z",
+    "published_At": "2022-07-02T14:25:00Z",
+    "published": "false"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "789654123",
+    "title": "Eighth Title",
+    "author": "Chris Lee",
+    "content": "Content for the eighth post.",
+    "create_at": "2022-08-01T13:10:00Z",
+    "published_At": "2022-08-02T12:15:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "567891234",
+    "title": "Ninth Title",
+    "author": "Emily Taylor",
+    "content": "Post content for the ninth post.",
+    "create_at": "2022-09-01T10:25:00Z",
+    "published_At": "2022-09-02T17:55:00Z",
+    "published": "true"
   },
   {
-    "title": "example title here with string type",
-    "author": "example author here with string type",
-    "content": "example content here with string type",
-    "create_at": "example create_at here with string type",
-    "published_at": "example published_at here with string type",
-    "published": "example published here with boolean type",
-    "id": ""
+    "id": "456123789",
+    "title": "Tenth Title",
+    "author": "Alex Clark",
+    "content": "This is the content of the tenth post.",
+    "create_at": "2022-10-01T15:40:00Z",
+    "published_At": "2022-10-02T13:35:00Z",
+    "published": "false"
   }
 ]
